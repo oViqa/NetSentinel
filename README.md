@@ -151,27 +151,6 @@ netsentinel/
 ├── requirements.txt
 └── README.md
 ```
-
-## Team
-
-| Role | Goes deep on | Learns the basics of |
-| --- | --- | --- |
-| Cyber lead | Networking, Wireshark, CICIDS2017 features and known errors, attack behaviour, error analysis | pandas, scikit-learn evaluation, Streamlit |
-| ML lead | scikit-learn pipelines, tuning, evaluation code, Streamlit app | TCP/IP, Wireshark, what DoS looks like |
-
-Shared by both: Python, pandas, metrics, Git, and understanding the whole pipeline. The
-dashboard is built together: the ML lead builds the interface, the cyber lead decides
-what the alerts show.
-
-## Roadmap
-
-- [ ] Setup: repository, virtual environment, `requirements.txt`
-- [ ] Foundations: Python, pandas, core ML ideas, networking and Wireshark
-- [ ] Data: inspection, feature glossary, choice of attack files and metrics
-- [ ] Model: baseline, Decision Tree, Random Forest, validation tuning, final test
-- [ ] Dashboard: CSV upload, column validation, predictions, filtering, CSV export
-- [ ] Report and demo: results with sample counts, error analysis, limitations
-
 ## References
 
 - Sharafaldin, Lashkari and Ghorbani, *Toward Generating a New Intrusion Detection Dataset
